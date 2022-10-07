@@ -66,7 +66,7 @@ function deleteRequest<T = void>(
 }
 
 async function request<T>(
-  method: 'POST' | 'PUT' | 'DELETE',
+  method: 'POST' | 'PUT' | 'DELETE' | 'GET',
   path: string,
   body: unknown
 ): Promise<ResponseWithData<T>> {
